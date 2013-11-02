@@ -1,3 +1,12 @@
 target
-.idea
 *.iml
+.classpath
+.idea/
+.project
+grailsw
+grailsw.bat
+nextgen-grailsPlugins.iml
+nextgen.iml
+wrapper/
+classes
+
