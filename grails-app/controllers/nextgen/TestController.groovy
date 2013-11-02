@@ -2,9 +2,11 @@ package nextgen
 
 import com.neidetcher.hcbp.util.HystrixConfigurationUtility
 import com.netflix.hystrix.*
+import org.grails.plugins.yammermetrics.groovy.Timed
 
 class TestController {
 
+    @Timed
     def index() {
         String result = (new DodgyStringReverser("FOO")).execute()
         log.info("result: " + result)
