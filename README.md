@@ -31,9 +31,7 @@ SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 log4j:WARN No such property [httpclient] in org.apache.log4j.ConsoleAppender.
-> Building > :hystrix-dashboard:jettyRun > [Running at http://localhost:7979/hystrix-dashboard](Running at http://localhost:7979/hystrix-dashboard)
+> Building > :hystrix-dashboard:jettyRun > Running at http://localhost:7979/hystrix-dashboard
 ```
 
-
-
-
+Now go here to see the dashboard: [http://localhost:7979/hystrix-dashboard](http://localhost:7979/hystrix-dashboard)
