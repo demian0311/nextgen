@@ -9,8 +9,11 @@
 
         <table class="center">
             <tr>
+                <th colspan="2">Demo Links</th>
+            </tr>
+            <tr>
                 <td><a href="test/index">Test functionality</a></td>
-                <td>hit our internal sort of random ill-behaving API</td>
+                <td>hit our internal bad behaving JSON API</td>
             </tr>
             <tr>
                 <td><a href="hystrix.stream">Hystrix Stream</a></td>
@@ -24,6 +27,31 @@
                 <td><a href="metrics">Yammer Metrics</a></td>
                 <td>Metrics, Ping, Threads, Healthcheck</td>
             </tr>
+        </table>
+
+
+        <table class="center">
+            <tr>
+                <th colspan="2">GitHub Links to Projects</th>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/demian0311/nextgen">Nextgen</a></td>
+                <td>This project, shows usage of circuit breaker and metrics.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/demian0311/hystrix-circuit-breaker">Hystrix Circuit Breaker</a></td>
+                <td>Grails plugin to include and make available Hystrix Circuit Breaker</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/jeffellis/grails-yammer-metrics">Yammer Metrics</a></td>
+                <td>Grails plugin to include and make available Yammer Metrics</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://github.com/Netflix/Hystrix">Hystrix</a></td>
+                <td>Contains a Hystrix Dashboard to view circuit breakers</td>
+            </tr>
+
         </table>
     </body>
 </html>
