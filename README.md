@@ -16,11 +16,13 @@ We do a little bit of randomness to simulate indeterminate
 behavior.  The duration of the call might be different
 and sometimes you'll get back a 500.
 
-## Look at the Hystrix Stream
+## Hystrix
+
+### Look at the Hystrix Stream
 You can go here to see the stream: 
 [http://localhost:8080/nextgen/hystrix.stream](http://localhost:8080/nextgen/hystrix.stream)
 
-## Use the Hystrix Dashboard
+### Use the Hystrix Dashboard
 ```
 demian@kabar-7 ~/code/Hystrix/hystrix-dashboard>../gradlew jettyRun
 :hystrix-dashboard:compileJava UP-TO-DATE
@@ -35,3 +37,6 @@ log4j:WARN No such property [httpclient] in org.apache.log4j.ConsoleAppender.
 ```
 
 Now go here to see the dashboard: [http://localhost:7979/hystrix-dashboard](http://localhost:7979/hystrix-dashboard)
+
+## Yammer Metrics
+Metrics are on this endpoint: http://localhost:8080/nextgen/metrics

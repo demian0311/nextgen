@@ -2,7 +2,7 @@ package nextgen
 
 import com.neidetcher.hcbp.util.HystrixConfigurationUtility
 import com.netflix.hystrix.*
-import org.grails.plugins.yammermetrics.groovy.Timed
+import org.grails.plugins.metrics.groovy.Timed
 
 class TestController {
 
