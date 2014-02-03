@@ -24,6 +24,7 @@ table{
 }
 
 th{
+    text-align: left;
     color: #555;
     font-size: 1.25;
     border-bottom: 1px solid #000;
