@@ -12,7 +12,7 @@
                 <th colspan="2">Demo Links</th>
             </tr>
             <tr>
-                <td><a href="test/index">Test functionality</a></td>
+                <td><a href="test">Test functionality</a></td>
                 <td>hit our internal bad behaving JSON API</td>
             </tr>
             <tr>

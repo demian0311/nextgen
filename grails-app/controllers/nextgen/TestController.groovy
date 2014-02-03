@@ -25,7 +25,6 @@ class DodgyStringReverser extends HystrixCommand {
                         .withCircuitBreakerSleepWindowInMilliseconds(1000))
     }
 
-
     def DodgyStringReverser(String stringIn){
         super(createHystrixCommandSetter())
         println("command created")
