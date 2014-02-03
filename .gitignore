@@ -1,5 +1,7 @@
 target
 *.iml
+*.ipr
+*.iws
 .classpath
 .idea/
 .project
@@ -9,4 +11,5 @@ nextgen-grailsPlugins.iml
 nextgen.iml
 wrapper/
 classes
+out/
 
