@@ -57,7 +57,7 @@ grails.project.dependency.resolution = {
 
         // plugins for the compile step
         compile ":scaffolding:2.0.0"
-        compile ':cache:1.1.1'
+        //compile ':cache:1.1.1' 2014.02.05 DLN: plugin was causing me problems
         compile ":hystrix-circuit-breaker:0.1"
         compile ":yammer-metrics:3.0.1-2"
 

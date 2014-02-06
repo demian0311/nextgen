@@ -5,6 +5,6 @@ echo "========================="
 
 while :
 do
-   curl -sL -w "%{http_code} %{time_total}\\n" http://localhost:8080/nextgen/test -o /dev/null
+   curl -sL -w "%{http_code} %{time_total}\\n" http://localhost:8080/nextgen/test?string=HelloWorld -o /dev/null
 	sleep 1
 done

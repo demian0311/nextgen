@@ -1,15 +1,22 @@
 package nextgen
 
+import com.codahale.metrics.health.HealthCheck
 import com.neidetcher.hcbp.util.HystrixConfigurationUtility
 import com.netflix.hystrix.HystrixCommand
 import com.netflix.hystrix.HystrixCommandGroupKey
-import grails.transaction.Transactional
 
-@Transactional
-class DodgyStringReverserService {
+class DodgyStringReverserService extends HealthCheck{
 
     def reverse(String stringIn) {
-        return (new DodgyStringReverserCommand(stringIn)).execute();
+        return (new DodgyStringReverserCommand(stringIn)).execute()
+    }
+
+    def String ping(){
+       "pong"
+    }
+
+    @Override def HealthCheck.Result check() throws Exception{
+        return HealthCheck.Result.healthy()
     }
 }
 
