@@ -1,17 +1,13 @@
-import com.codahale.metrics.health.HealthCheckRegistry
+import org.grails.plugins.metrics.groovy.HealthChecks
 
 class BootStrap {
 
+    def dodgyStringReverserService
+
     def init = { servletContext ->
-        /*
-        HealthCheckRegistry registry = new HealthCheckRegistry()
-
-        registry.register(
-                "dodgyStringReverser",
-                new DodgyStringReversalServiceHealthCheck())
-                */
-
+        HealthChecks.register("dodgyStringReverserService", dodgyStringReverserService)
     }
+
     def destroy = {
     }
 }
